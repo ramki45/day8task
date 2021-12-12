@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        class movie{
+            title;
+            studio;
+            rating;
+            constructor(title,studio,rating){
+                this.title = title;
+                this.studio = studio;
+                this.rating = rating;
+            }
+        }
+        var r1 = new movie("Casino Royale", "Eon Productions", "PG-13");
+        console.log(r1);
+
+        //circle class
+
+        class circle{
+            radius;
+            color;
+            constructor(radius,color){
+                this.radius = radius;
+                this.color = color;
+                
+        }
+    }
+        var output = new circle(2.0, "red");
+        console.log(output);
+        
+          // person
+          class person{
+              name;
+              age;
+              place;
+              district;
+              constructor(name,age,place,district){
+                  this.name = name;
+                  this.age = age;
+                  this.place = place;
+                  this.district = district;
+              }
+
+          }
+          var person1 = new person("Rammi", 27, "Nerkatanseval", "Tirunelveli");
+          console.log(person1);
+
+          class uber{
+              kilometer;
+              price;
+              constructor(kilometer, price , result){
+                  this.kilometer = kilometer;
+                  this.price = price;
+                this.result = kilometer * price;
+              }
+          }
+          var uberPrice = new uber(100, 7.7);
+          console.log(uberPrice);
+        
+    </script>
+</body>
+</html>
